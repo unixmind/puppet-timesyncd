@@ -12,9 +12,9 @@ Starting with Debian jessie, "ntp" package is no longer required to synchronize 
 New "systemd-timesyncd" service is the prefered method.
 
 This module :
-* Remove "ntp" package
-* Create "/etc/systemd/timesyncd.conf" file with "www.ntp.org" time references
-* Start and enable "systemd-timesyncd"
+* Removes "ntp" package
+* Creates "/etc/systemd/timesyncd.conf" file with "www.ntp.org" time references
+* Starts and enables "systemd-timesyncd"
 
 ## Usage
 
@@ -22,5 +22,5 @@ include ::timesyncd
 
 ## Limitations
 
-On Debian jessie only !
+On Debian 8.x (jessie) only !
 
