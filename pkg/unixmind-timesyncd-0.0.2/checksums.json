@@ -1,11 +1,11 @@
 {
   "Gemfile": "36c376f27539ded2a321b2bd432e843b",
-  "README.md": "81aa6b87e137028637c050f3ddbe63fc",
+  "README.md": "7b8ec023aad7bd7d42cf3c08738cdd79",
   "Rakefile": "f4692851f7e9afcdb02721319e3f18b9",
   "examples/init.pp": "d130e7d65cd08826eb15807c76f1a516",
   "files/timesyncd.conf_ntp.org": "d8f940f7e267ae70fc4daeca74d3d0f8",
-  "manifests/init.pp": "587aefaa4441b1d5ebddc52b290a6417",
-  "metadata.json": "66eee4b353e4d41ce9bb1b0e096022ef",
+  "manifests/init.pp": "d0b759913f23a4eb357e3608e9e99c68",
+  "metadata.json": "25ba5334a4a816158867b1594e8609cd",
   "spec/classes/init_spec.rb": "b96faa2d3ea6c3aa2abbc89a592b52d3",
   "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc"
 }

@@ -1,6 +1,6 @@
 {
   "name": "unixmind-timesyncd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "unixmind",
   "summary": "Configure NTP client on Debian jessie using systemd-timesyncd.service",
   "license": "Apache-2.0",

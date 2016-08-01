@@ -43,8 +43,8 @@
 # Copyright 2016 Frederic Wou, unless otherwise noted.
 #
 class timesyncd {
-  if $osfamily == 'Debian' {
-    if $lsbdistcodename == 'jessie' {
+  if $::os['name'] == 'Debian' {
+    if $::os['release']['major'] == '8' {
 
       package { 'ntp_removed':
         name   => 'ntp',
@@ -68,9 +68,9 @@ class timesyncd {
       }
 
     } else {
-      notify { 'Debian $lsbdistcodename not supported': }
+      notify { "Debian ${::os['release']['major']} not supported": }
     }
   } else {
-    notify { 'Operating system $osfamily not supported': }
+    notify { "Operating system ${::os['name']} not supported": }
   }
 }

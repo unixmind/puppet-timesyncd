@@ -68,9 +68,9 @@ class timesyncd {
       }
 
     } else {
-      fail { 'Debian $lsbdistcodename not supported': }
+      notify { "Debian ${::os['release']['major']} not supported": }
     }
   } else {
-    fail { 'Operating system $osfamily not supported': }
+    notify { "Operating system ${::os['name']} not supported": }
   }
 }
